@@ -1,0 +1,22 @@
+{
+  "name": "clicksend-poc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "send-sms": "node --env-file .env index.js",
+    "compile": "tsc --target es5 ./node_modules/clicksend/api.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^22.15.14",
+    "bluebird": "^3.7.2",
+    "clicksend": "^5.0.79",
+    "http": "^0.0.1-security",
+    "request": "^2.88.2",
+    "typescript": "^5.8.3"
+  }
+}
